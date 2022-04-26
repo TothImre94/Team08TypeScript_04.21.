@@ -8,8 +8,8 @@ function iLovetypeScript():void {
 function NegyzetKeruletTeruletEljaras(a:number):void{
     let kerulet=4*a;
     let terulet=a*a;
-    document.write('<br>A(z) ${a} oldalú négyzet kerülete:${kerulet}');
-    document.write('<br>A(z) ${a} oldalú négyzet területe:${terulet}');
+    document.write(`<br>A ${a} oldalú négyzet kerülete:${kerulet}`);
+    document.write(`<br>A ${a} oldalú négyzet területe:${terulet}`);
 
 }
 

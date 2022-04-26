@@ -8,8 +8,8 @@ function iLovetypeScript() {
 function NegyzetKeruletTeruletEljaras(a) {
     var kerulet = 4 * a;
     var terulet = a * a;
-    document.write('<br>A(z) ${a} oldalú négyzet kerülete:${kerulet}');
-    document.write('<br>A(z) ${a} oldalú négyzet területe:${terulet}');
+    document.write("<br>A ".concat(a, " oldal\u00FA n\u00E9gyzet ker\u00FClete:").concat(kerulet));
+    document.write("<br>A ".concat(a, " oldal\u00FA n\u00E9gyzet ter\u00FClete:").concat(terulet));
 }
 //Visszatérési értékes és paraméter nélküli függvény
 function RandomGeneralo100Fuggveny() {
