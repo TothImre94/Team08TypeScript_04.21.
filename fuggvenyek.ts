@@ -22,3 +22,4 @@ function RandomGeneralo100Fuggveny():number {
 function NegyzetKeruletFuggveny(a:number):number{
     return 4*a;
 }
+
